@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.7dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15.7dp"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="444dp"
+                android:background="@drawable/yellow_cueve_bg"/>
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20.7dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="SignUp"
+                    android:textColor="#030303"
+                    android:textSize="31.3sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Email"
+                    android:textColor="@color/white"
+                    android:textSize="13.3sp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:maxLines="1"
+                    android:textCursorDrawable="@drawable/grey_cursor_color"
+                    android:textSize="15sp"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="6.3dp"
+                    android:layout_marginRight="44.3dp"
+                    android:background="#d5d5d5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Mobile Number"
+                    android:textColor="@color/white"
+                    android:textSize="13.3sp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@android:color/transparent"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="10"
+                    android:paddingRight="44.3dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textCursorDrawable="@drawable/grey_cursor_color"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="6.3dp"
+                    android:layout_marginRight="44.3dp"
+                    android:background="#d5d5d5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Password"
+                    android:textColor="@color/white"
+                    android:textSize="13.3sp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:inputType="textPassword"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:maxLines="1"
+                    android:textCursorDrawable="@drawable/grey_cursor_color"
+                    android:textSize="15sp"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="6.3dp"
+                    android:layout_marginRight="44.3dp"
+                    android:background="#d5d5d5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Confirm Password"
+                    android:textColor="@color/white"
+                    android:textSize="13.3sp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@android:color/transparent"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:maxLength="10"
+                    android:paddingRight="44.3dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textCursorDrawable="@drawable/grey_cursor_color"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="6.3dp"
+                    android:layout_marginRight="44.3dp"
+                    android:background="#d5d5d5"/>
+
+                <ImageView
+                    android:id="@+id/signup"
+                    android:layout_width="18.7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/black_arrow" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center_horizontal"
+                android:text="Already have an account."
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/switch_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:text="Signup?"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
