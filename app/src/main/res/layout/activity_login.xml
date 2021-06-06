@@ -36,11 +36,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="57.7dp"
+                    android:layout_marginTop="14dp"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="LOGIN"
                     android:textColor="#030303"
                     android:textSize="31.3sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/welcome"
+                    android:textColor="#030303"
+                    android:textSize="14sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -79,6 +87,7 @@
                     android:textSize="13.3sp"/>
 
                 <EditText
+                    android:id="@+id/login_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="11.7dp"
@@ -93,7 +102,6 @@
                     android:textSize="15sp" />
 
                 <View
-                    android:id="@+id/login_password"
                     android:layout_width="wrap_content"
                     android:layout_height="1dp"
                     android:layout_marginTop="6.3dp"
