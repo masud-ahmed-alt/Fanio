@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="#feb209"
+    android:background="#09DEFE"
     android:orientation="vertical">
 
     <LinearLayout
@@ -121,13 +121,13 @@
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_marginTop="5dp"
-                    android:src="@drawable/yellow_fb"/>
+                    android:src="@drawable/facebook"/>
                 <ImageView
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_marginTop="30dp"
                     android:layout_marginLeft="29dp"
-                    android:src="@drawable/yellow_linkedin"/>
+                    android:src="@drawable/ic_google"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -138,7 +138,7 @@
                         android:layout_height="48dp"
                         android:layout_marginTop="50dp"
                         android:layout_marginLeft="29dp"
-                        android:src="@drawable/yellow_twitter"/>
+                        android:src="@drawable/twitter"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -150,9 +150,9 @@
                     
                     <ImageView
                         android:id="@+id/login"
-                        android:layout_width="18.7dp"
-                        android:layout_height="15.3dp"
-                        android:src="@drawable/black_arrow"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:src="@drawable/login_arrow"/>
 
                 </LinearLayout>
 

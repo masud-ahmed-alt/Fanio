@@ -24,7 +24,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="444dp"
-                android:background="@drawable/yellow_cueve_bg"/>
+                android:background="@drawable/green_cueve_bg"/>
 
             <LinearLayout
                 android:id="@+id/linear"
@@ -155,11 +155,11 @@
 
                 <ImageView
                     android:id="@+id/signup"
-                    android:layout_width="18.7dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
                     android:layout_marginLeft="280dp"
                     android:layout_marginTop="25dp"
-                    android:src="@drawable/black_arrow" />
+                    android:src="@drawable/login_arrow" />
             </LinearLayout>
 
         </FrameLayout>
