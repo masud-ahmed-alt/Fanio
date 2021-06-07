@@ -57,12 +57,10 @@ public class SignUpActivity extends AppCompatActivity {
         }else if (mobile.isEmpty()){
             signup_mobile.setError("Field can't be empty");
             signup_mobile.requestFocus();
-        }else if (mobile.length()>10){
+        }else if (mobile.length()!=10){
             signup_mobile.setError("Invalid Mobile Number");
             signup_mobile.requestFocus();
-        }
-
-        else if (password.isEmpty()){
+        }else if (password.isEmpty()){
             signup_password.setError("Field can't be empty");
             signup_password.requestFocus();
         }else if (confirmPass.isEmpty()){
