@@ -159,13 +159,15 @@
                     android:layout_marginRight="44.3dp"
                     android:background="#d5d5d5"/>
 
-                <ImageView
+                <Button
                     android:id="@+id/btn_signup"
                     android:layout_width="wrap_content"
-                    android:layout_height="36dp"
-                    android:layout_marginLeft="280dp"
-                    android:layout_marginTop="25dp"
-                    android:src="@drawable/login_arrow" />
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Signup"
+                    android:textAllCaps="false"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" />
             </LinearLayout>
 
         </FrameLayout>
