@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_home"
+        android:title="Home"
+        android:icon="@drawable/home_icon"/>
+    <item android:id="@+id/navigation_facebook"
+        android:title="Facebook"
+        android:icon="@drawable/facebook_icon"/>
+    <item android:id="@+id/navigation_youtube"
+        android:title="Youtube"
+        android:icon="@drawable/youtube_icon"/>
+    <item android:id="@+id/navigation_instagram"
+        android:title="Instagram"
+        android:icon="@drawable/instagram_icon"/>
+    <item android:id="@+id/navigation_about"
+        android:title="About Us"
+        android:icon="@drawable/about_icon"/>
+</menu>
